@@ -1,0 +1,83 @@
+.footer {
+    margin-top: 51px;
+    margin-bottom: 48px;
+
+    &__container {
+        display: flex;
+    }
+
+    &__socials {
+        margin-right: 323px;
+        &-list{
+            display: flex;
+        }
+        &-item {
+            margin-left: 16px;
+
+            &:first-child {
+                margin-left: 0px;
+            }
+        }
+
+        &-link {
+            background-color: rgba(252, 252, 252, 0.4);
+            width: 28px;
+            height: 28px;
+            display: flex;
+            padding: 2px;
+            border-radius: 100%;
+        }
+    }
+
+    &__info {
+        margin-left: 323px;
+        &-list {
+            display: grid;
+            grid-template-columns: 126px 182px;
+            grid-gap: 8px 24px;
+
+            &-link {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-decoration: none;
+                color: #2D3440;
+                white-space: nowrap;
+
+                &:hover {
+                    font-weight: 700;
+                    position: relative;
+
+                    &::before {
+                        content: url('../img/heart.svg');
+                        position: absolute;
+                        top: 0px;
+                        left: -23px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__politic {
+        display: flex;
+        margin-left: auto;
+        flex-direction: column;
+        &-logo {
+            display: inline-block;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #2D3440;
+            margin-top: 12px;
+            &-link {
+                color: #2D3440;
+                text-decoration: none;
+                border-bottom: 1px solid rgba(45, 52, 64, 0.5);
+            }
+        }
+    }
+}

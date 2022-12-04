@@ -1,0 +1,43 @@
+.about {
+    position: relative;
+    margin-top: 80px;
+    &__back {
+        border-radius: 16px;
+    }
+
+    &__wrapper {
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        bottom: 24px;
+        right: 24px;
+        padding-top: 56px;
+        padding-bottom: 56px;
+        padding-right: 40px;
+        padding-left: 40px;
+        border-radius: 16px;
+        max-width: 1122px;
+        width: 100%;
+        z-index: 2;
+        background-color: #FCFCFC;
+    }
+    &__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px 31px;
+        &-item{
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+    }
+    &__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 46px;
+        margin: 0 auto;
+        max-width: 995px;
+        text-align: center;
+        margin-bottom: 56px;
+    }
+}

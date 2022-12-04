@@ -1,6 +1,14 @@
 @import "fonts";
+@import "./base.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/intro.scss";
+@import "./components/gifts.scss";
+@import "./components/popular.scss";
+@import "./components/about.scss";
+@import "./components/request.scss";
+@import "./components/delivery.scss";
+@import "./components/contacts.scss";
 
-body{
-    font-family: OpenSans;
-    font-size: 50px;
-}
+
+
